@@ -1,0 +1,30 @@
+{
+  "name": "react-ts-router",
+  "version": "1.0.0",
+  "description": "Demo of react-router-last-location. https://www.npmjs.com/package/react-router-last-location https://github.com/hinok/react-router-last-location",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-router-dom": "4.3.1",
+    "react-router-last-location": "2.0.0-beta.3",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "16.7.22",
+    "@types/react-dom": "16.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
