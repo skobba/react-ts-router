@@ -14,27 +14,13 @@ const styles: React.CSSProperties = {
 
 const App = () => (
   <div style={styles}>
-    <h5>Click on About to see your last location</h5>
+    <h5>React Typescript with router and last location</h5>
     <Router>
       <LastLocationProvider>
         <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/hooks">Hooks</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-
+          <Link to="/">Home</Link>|<Link to="/about">About</Link>|
+          <Link to="/hooks">Hooks</Link>|<Link to="/contact">Contact</Link>
           <hr />
-
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/hooks" component={Hooks} />
